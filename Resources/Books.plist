@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Author</key>
+		<string>J.R.R. Tolkien</string>
+		<key>Books</key>
+		<array>
+			<dict>
+				<key>Cover</key>
+				<string>the-hobbit.jpg</string>
+				<key>Title</key>
+				<string>The Hobbit</string>
+				<key>Year</key>
+				<string>1937</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>fellowship.jpg</string>
+				<key>Title</key>
+				<string>The Fellowship of the Ring</string>
+				<key>Year</key>
+				<string>1954</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>two-towers.jpg</string>
+				<key>Title</key>
+				<string>The Two Towers</string>
+				<key>Year</key>
+				<string>1954</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>return-king.jpg</string>
+				<key>Title</key>
+				<string>The Return of the King</string>
+				<key>Year</key>
+				<string>1955</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>bilbo-song.png</string>
+				<key>Title</key>
+				<string>Bilbo&apos;s Last Song</string>
+				<key>Year</key>
+				<string>1966</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Author</key>
+		<string>Dan Brown</string>
+		<key>Books</key>
+		<array>
+			<dict>
+				<key>Cover</key>
+				<string>digital-fortress.jpg</string>
+				<key>Title</key>
+				<string>Digital Fortress</string>
+				<key>Year</key>
+				<string>1998</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>angels-demons.jpg</string>
+				<key>Title</key>
+				<string>Angels and Demons</string>
+				<key>Year</key>
+				<string>2000</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>deception-point.jpg</string>
+				<key>Title</key>
+				<string>Deception Point</string>
+				<key>Year</key>
+				<string>2001</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>da-vinci-code.jpg</string>
+				<key>Title</key>
+				<string>The Da Vinci Code</string>
+				<key>Year</key>
+				<string>2003</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>lost-symbol.jpg</string>
+				<key>Title</key>
+				<string>The Lost Symbol</string>
+				<key>Year</key>
+				<string>2009</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Author</key>
+		<string>J.K. Rowling</string>
+		<key>Books</key>
+		<array>
+			<dict>
+				<key>Cover</key>
+				<string>stone.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Philosopher&apos;s Stone</string>
+				<key>Year</key>
+				<string>1997</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>chamber.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Chamber of Secrets</string>
+				<key>Year</key>
+				<string>1998</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>azkaban.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Prisoner of Azkaban</string>
+				<key>Year</key>
+				<string>1999</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>goblet.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Goblet of Fire</string>
+				<key>Year</key>
+				<string>2000</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>phoenix.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Order of the Phoenix</string>
+				<key>Year</key>
+				<string>2003</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>prince.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Half Blood Prince</string>
+				<key>Year</key>
+				<string>2005</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>hallows.jpg</string>
+				<key>Title</key>
+				<string>Harry Potter and the Deathly Hallows</string>
+				<key>Year</key>
+				<string>2007</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>bard.jpg</string>
+				<key>Title</key>
+				<string>The Tales of Beedle the Bard</string>
+				<key>Year</key>
+				<string>2008</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Author</key>
+		<string>Robin Cook</string>
+		<key>Books</key>
+		<array>
+			<dict>
+				<key>Cover</key>
+				<string>sphinx.jpeg</string>
+				<key>Title</key>
+				<string>Sphinx</string>
+				<key>Year</key>
+				<string>1979</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>brain.jpg</string>
+				<key>Title</key>
+				<string>Brain</string>
+				<key>Year</key>
+				<string>1981</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>fever.jpg</string>
+				<key>Title</key>
+				<string>Fever</string>
+				<key>Year</key>
+				<string>1982</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>blindsight.png</string>
+				<key>Title</key>
+				<string>Blindsight</string>
+				<key>Year</key>
+				<string>1992</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>fatal-cure.jpeg</string>
+				<key>Title</key>
+				<string>Fatal Cure</string>
+				<key>Year</key>
+				<string>1994</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>invasion.jpg</string>
+				<key>Title</key>
+				<string>Invasion</string>
+				<key>Year</key>
+				<string>1997</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>shock.jpg</string>
+				<key>Title</key>
+				<string>Shock</string>
+				<key>Year</key>
+				<string>2001</string>
+			</dict>
+			<dict>
+				<key>Cover</key>
+				<string>intervention.jpg</string>
+				<key>Title</key>
+				<string>Intervention</string>
+				<key>Year</key>
+				<string>2009</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

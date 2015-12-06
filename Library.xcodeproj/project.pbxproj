@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC05C2BE1C146B7F0028309C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05C2BD1C146B7F0028309C /* AppDelegate.swift */; };
+		CC05C2C31C146B7F0028309C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2C11C146B7F0028309C /* Main.storyboard */; };
+		CC05C2C51C146B7F0028309C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2C41C146B7F0028309C /* Assets.xcassets */; };
+		CC05C2C81C146B7F0028309C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2C61C146B7F0028309C /* LaunchScreen.storyboard */; };
+		CC05C2ED1C146C8F0028309C /* Books.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D01C146C8F0028309C /* Books.plist */; };
+		CC05C2EE1C146C8F0028309C /* angels-demons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D21C146C8F0028309C /* angels-demons.jpg */; };
+		CC05C2EF1C146C8F0028309C /* azkaban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D31C146C8F0028309C /* azkaban.jpg */; };
+		CC05C2F01C146C8F0028309C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D41C146C8F0028309C /* background.jpg */; };
+		CC05C2F11C146C8F0028309C /* bard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D51C146C8F0028309C /* bard.jpg */; };
+		CC05C2F21C146C8F0028309C /* bilbo-song.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D61C146C8F0028309C /* bilbo-song.png */; };
+		CC05C2F31C146C8F0028309C /* blindsight.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D71C146C8F0028309C /* blindsight.png */; };
+		CC05C2F41C146C8F0028309C /* brain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D81C146C8F0028309C /* brain.jpg */; };
+		CC05C2F51C146C8F0028309C /* chamber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2D91C146C8F0028309C /* chamber.jpg */; };
+		CC05C2F61C146C8F0028309C /* da-vinci-code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DA1C146C8F0028309C /* da-vinci-code.jpg */; };
+		CC05C2F71C146C8F0028309C /* deception-point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DB1C146C8F0028309C /* deception-point.jpg */; };
+		CC05C2F81C146C8F0028309C /* digital-fortress.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DC1C146C8F0028309C /* digital-fortress.jpg */; };
+		CC05C2F91C146C8F0028309C /* fatal-cure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DD1C146C8F0028309C /* fatal-cure.jpeg */; };
+		CC05C2FA1C146C8F0028309C /* fellowship.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DE1C146C8F0028309C /* fellowship.jpg */; };
+		CC05C2FB1C146C8F0028309C /* fever.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2DF1C146C8F0028309C /* fever.jpg */; };
+		CC05C2FC1C146C8F0028309C /* goblet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E01C146C8F0028309C /* goblet.jpg */; };
+		CC05C2FD1C146C8F0028309C /* hallows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E11C146C8F0028309C /* hallows.jpg */; };
+		CC05C2FE1C146C8F0028309C /* intervention.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E21C146C8F0028309C /* intervention.jpg */; };
+		CC05C2FF1C146C8F0028309C /* invasion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E31C146C8F0028309C /* invasion.jpg */; };
+		CC05C3001C146C8F0028309C /* lost-symbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E41C146C8F0028309C /* lost-symbol.jpg */; };
+		CC05C3011C146C8F0028309C /* phoenix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E51C146C8F0028309C /* phoenix.jpg */; };
+		CC05C3021C146C8F0028309C /* prince.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E61C146C8F0028309C /* prince.jpg */; };
+		CC05C3031C146C8F0028309C /* return-king.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E71C146C8F0028309C /* return-king.jpg */; };
+		CC05C3041C146C8F0028309C /* shock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E81C146C8F0028309C /* shock.jpg */; };
+		CC05C3051C146C8F0028309C /* sphinx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2E91C146C8F0028309C /* sphinx.jpeg */; };
+		CC05C3061C146C8F0028309C /* stone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2EA1C146C8F0028309C /* stone.jpg */; };
+		CC05C3071C146C8F0028309C /* the-hobbit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2EB1C146C8F0028309C /* the-hobbit.jpg */; };
+		CC05C3081C146C8F0028309C /* two-towers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05C2EC1C146C8F0028309C /* two-towers.jpg */; };
+		CC05C30A1C146E1E0028309C /* AuthorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05C3091C146E1E0028309C /* AuthorsViewController.swift */; };
+		CC05C30C1C1546750028309C /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05C30B1C1546750028309C /* BooksViewController.swift */; };
+		CC05C30E1C1568B70028309C /* BookCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05C30D1C1568B70028309C /* BookCoverViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC05C2BA1C146B7F0028309C /* Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05C2BD1C146B7F0028309C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC05C2C21C146B7F0028309C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC05C2C41C146B7F0028309C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC05C2C71C146B7F0028309C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC05C2C91C146B7F0028309C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05C2D01C146C8F0028309C /* Books.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Books.plist; sourceTree = "<group>"; };
+		CC05C2D21C146C8F0028309C /* angels-demons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angels-demons.jpg"; sourceTree = "<group>"; };
+		CC05C2D31C146C8F0028309C /* azkaban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azkaban.jpg; sourceTree = "<group>"; };
+		CC05C2D41C146C8F0028309C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		CC05C2D51C146C8F0028309C /* bard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bard.jpg; sourceTree = "<group>"; };
+		CC05C2D61C146C8F0028309C /* bilbo-song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilbo-song.png"; sourceTree = "<group>"; };
+		CC05C2D71C146C8F0028309C /* blindsight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blindsight.png; sourceTree = "<group>"; };
+		CC05C2D81C146C8F0028309C /* brain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brain.jpg; sourceTree = "<group>"; };
+		CC05C2D91C146C8F0028309C /* chamber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chamber.jpg; sourceTree = "<group>"; };
+		CC05C2DA1C146C8F0028309C /* da-vinci-code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "da-vinci-code.jpg"; sourceTree = "<group>"; };
+		CC05C2DB1C146C8F0028309C /* deception-point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deception-point.jpg"; sourceTree = "<group>"; };
+		CC05C2DC1C146C8F0028309C /* digital-fortress.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "digital-fortress.jpg"; sourceTree = "<group>"; };
+		CC05C2DD1C146C8F0028309C /* fatal-cure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fatal-cure.jpeg"; sourceTree = "<group>"; };
+		CC05C2DE1C146C8F0028309C /* fellowship.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fellowship.jpg; sourceTree = "<group>"; };
+		CC05C2DF1C146C8F0028309C /* fever.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fever.jpg; sourceTree = "<group>"; };
+		CC05C2E01C146C8F0028309C /* goblet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goblet.jpg; sourceTree = "<group>"; };
+		CC05C2E11C146C8F0028309C /* hallows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hallows.jpg; sourceTree = "<group>"; };
+		CC05C2E21C146C8F0028309C /* intervention.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intervention.jpg; sourceTree = "<group>"; };
+		CC05C2E31C146C8F0028309C /* invasion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invasion.jpg; sourceTree = "<group>"; };
+		CC05C2E41C146C8F0028309C /* lost-symbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lost-symbol.jpg"; sourceTree = "<group>"; };
+		CC05C2E51C146C8F0028309C /* phoenix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phoenix.jpg; sourceTree = "<group>"; };
+		CC05C2E61C146C8F0028309C /* prince.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prince.jpg; sourceTree = "<group>"; };
+		CC05C2E71C146C8F0028309C /* return-king.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "return-king.jpg"; sourceTree = "<group>"; };
+		CC05C2E81C146C8F0028309C /* shock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shock.jpg; sourceTree = "<group>"; };
+		CC05C2E91C146C8F0028309C /* sphinx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sphinx.jpeg; sourceTree = "<group>"; };
+		CC05C2EA1C146C8F0028309C /* stone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stone.jpg; sourceTree = "<group>"; };
+		CC05C2EB1C146C8F0028309C /* the-hobbit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-hobbit.jpg"; sourceTree = "<group>"; };
+		CC05C2EC1C146C8F0028309C /* two-towers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "two-towers.jpg"; sourceTree = "<group>"; };
+		CC05C3091C146E1E0028309C /* AuthorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorsViewController.swift; sourceTree = "<group>"; };
+		CC05C30B1C1546750028309C /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		CC05C30D1C1568B70028309C /* BookCoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCoverViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC05C2B71C146B7F0028309C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC05C2B11C146B7F0028309C = {
+			isa = PBXGroup;
+			children = (
+				CC05C2CF1C146C8F0028309C /* Resources */,
+				CC05C2BC1C146B7F0028309C /* Library */,
+				CC05C2BB1C146B7F0028309C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC05C2BB1C146B7F0028309C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC05C2BA1C146B7F0028309C /* Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC05C2BC1C146B7F0028309C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CC05C2BD1C146B7F0028309C /* AppDelegate.swift */,
+				CC05C3091C146E1E0028309C /* AuthorsViewController.swift */,
+				CC05C30B1C1546750028309C /* BooksViewController.swift */,
+				CC05C30D1C1568B70028309C /* BookCoverViewController.swift */,
+				CC05C2C11C146B7F0028309C /* Main.storyboard */,
+				CC05C2C41C146B7F0028309C /* Assets.xcassets */,
+				CC05C2C61C146B7F0028309C /* LaunchScreen.storyboard */,
+				CC05C2C91C146B7F0028309C /* Info.plist */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CC05C2CF1C146C8F0028309C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC05C2D01C146C8F0028309C /* Books.plist */,
+				CC05C2D11C146C8F0028309C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC05C2D11C146C8F0028309C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CC05C2D21C146C8F0028309C /* angels-demons.jpg */,
+				CC05C2D31C146C8F0028309C /* azkaban.jpg */,
+				CC05C2D41C146C8F0028309C /* background.jpg */,
+				CC05C2D51C146C8F0028309C /* bard.jpg */,
+				CC05C2D61C146C8F0028309C /* bilbo-song.png */,
+				CC05C2D71C146C8F0028309C /* blindsight.png */,
+				CC05C2D81C146C8F0028309C /* brain.jpg */,
+				CC05C2D91C146C8F0028309C /* chamber.jpg */,
+				CC05C2DA1C146C8F0028309C /* da-vinci-code.jpg */,
+				CC05C2DB1C146C8F0028309C /* deception-point.jpg */,
+				CC05C2DC1C146C8F0028309C /* digital-fortress.jpg */,
+				CC05C2DD1C146C8F0028309C /* fatal-cure.jpeg */,
+				CC05C2DE1C146C8F0028309C /* fellowship.jpg */,
+				CC05C2DF1C146C8F0028309C /* fever.jpg */,
+				CC05C2E01C146C8F0028309C /* goblet.jpg */,
+				CC05C2E11C146C8F0028309C /* hallows.jpg */,
+				CC05C2E21C146C8F0028309C /* intervention.jpg */,
+				CC05C2E31C146C8F0028309C /* invasion.jpg */,
+				CC05C2E41C146C8F0028309C /* lost-symbol.jpg */,
+				CC05C2E51C146C8F0028309C /* phoenix.jpg */,
+				CC05C2E61C146C8F0028309C /* prince.jpg */,
+				CC05C2E71C146C8F0028309C /* return-king.jpg */,
+				CC05C2E81C146C8F0028309C /* shock.jpg */,
+				CC05C2E91C146C8F0028309C /* sphinx.jpeg */,
+				CC05C2EA1C146C8F0028309C /* stone.jpg */,
+				CC05C2EB1C146C8F0028309C /* the-hobbit.jpg */,
+				CC05C2EC1C146C8F0028309C /* two-towers.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC05C2B91C146B7F0028309C /* Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05C2CC1C146B7F0028309C /* Build configuration list for PBXNativeTarget "Library" */;
+			buildPhases = (
+				CC05C2B61C146B7F0028309C /* Sources */,
+				CC05C2B71C146B7F0028309C /* Frameworks */,
+				CC05C2B81C146B7F0028309C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Library;
+			productName = Library;
+			productReference = CC05C2BA1C146B7F0028309C /* Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC05C2B21C146B7F0028309C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Envato Tuts+";
+				TargetAttributes = {
+					CC05C2B91C146B7F0028309C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CC05C2B51C146B7F0028309C /* Build configuration list for PBXProject "Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC05C2B11C146B7F0028309C;
+			productRefGroup = CC05C2BB1C146B7F0028309C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC05C2B91C146B7F0028309C /* Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC05C2B81C146B7F0028309C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05C2FD1C146C8F0028309C /* hallows.jpg in Resources */,
+				CC05C2F51C146C8F0028309C /* chamber.jpg in Resources */,
+				CC05C3081C146C8F0028309C /* two-towers.jpg in Resources */,
+				CC05C3031C146C8F0028309C /* return-king.jpg in Resources */,
+				CC05C2F11C146C8F0028309C /* bard.jpg in Resources */,
+				CC05C2C81C146B7F0028309C /* LaunchScreen.storyboard in Resources */,
+				CC05C3051C146C8F0028309C /* sphinx.jpeg in Resources */,
+				CC05C3061C146C8F0028309C /* stone.jpg in Resources */,
+				CC05C2FF1C146C8F0028309C /* invasion.jpg in Resources */,
+				CC05C3011C146C8F0028309C /* phoenix.jpg in Resources */,
+				CC05C2FC1C146C8F0028309C /* goblet.jpg in Resources */,
+				CC05C2C51C146B7F0028309C /* Assets.xcassets in Resources */,
+				CC05C3001C146C8F0028309C /* lost-symbol.jpg in Resources */,
+				CC05C2F71C146C8F0028309C /* deception-point.jpg in Resources */,
+				CC05C2F01C146C8F0028309C /* background.jpg in Resources */,
+				CC05C2F21C146C8F0028309C /* bilbo-song.png in Resources */,
+				CC05C3021C146C8F0028309C /* prince.jpg in Resources */,
+				CC05C2F91C146C8F0028309C /* fatal-cure.jpeg in Resources */,
+				CC05C2EF1C146C8F0028309C /* azkaban.jpg in Resources */,
+				CC05C2EE1C146C8F0028309C /* angels-demons.jpg in Resources */,
+				CC05C3071C146C8F0028309C /* the-hobbit.jpg in Resources */,
+				CC05C2C31C146B7F0028309C /* Main.storyboard in Resources */,
+				CC05C2FA1C146C8F0028309C /* fellowship.jpg in Resources */,
+				CC05C3041C146C8F0028309C /* shock.jpg in Resources */,
+				CC05C2FB1C146C8F0028309C /* fever.jpg in Resources */,
+				CC05C2ED1C146C8F0028309C /* Books.plist in Resources */,
+				CC05C2F61C146C8F0028309C /* da-vinci-code.jpg in Resources */,
+				CC05C2F81C146C8F0028309C /* digital-fortress.jpg in Resources */,
+				CC05C2F41C146C8F0028309C /* brain.jpg in Resources */,
+				CC05C2FE1C146C8F0028309C /* intervention.jpg in Resources */,
+				CC05C2F31C146C8F0028309C /* blindsight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC05C2B61C146B7F0028309C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05C2BE1C146B7F0028309C /* AppDelegate.swift in Sources */,
+				CC05C30E1C1568B70028309C /* BookCoverViewController.swift in Sources */,
+				CC05C30A1C146E1E0028309C /* AuthorsViewController.swift in Sources */,
+				CC05C30C1C1546750028309C /* BooksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC05C2C11C146B7F0028309C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC05C2C21C146B7F0028309C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC05C2C61C146B7F0028309C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC05C2C71C146B7F0028309C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC05C2CA1C146B7F0028309C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC05C2CB1C146B7F0028309C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC05C2CD1C146B7F0028309C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Library/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutsplus.Library;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC05C2CE1C146B7F0028309C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Library/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutsplus.Library;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC05C2B51C146B7F0028309C /* Build configuration list for PBXProject "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05C2CA1C146B7F0028309C /* Debug */,
+				CC05C2CB1C146B7F0028309C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05C2CC1C146B7F0028309C /* Build configuration list for PBXNativeTarget "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05C2CD1C146B7F0028309C /* Debug */,
+				CC05C2CE1C146B7F0028309C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC05C2B21C146B7F0028309C /* Project object */;
+}
